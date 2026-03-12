@@ -2,11 +2,11 @@ import qrcode
 from PIL import Image
 import os
 
-data = input("Enter your URL : ")
+data = input("Enter your URL or Link : ")
 qr_size_cm = 6                     
 dpi = 300                          
 
-logo_file = ""  # Enter The path of Logo or img      
+logo_file = input("Enter your logo path (if you didn't want to add logo so just hit enter : )")  # Enter The path of Logo or img
 
 
 pixels = int((qr_size_cm / 2.54) * dpi)
